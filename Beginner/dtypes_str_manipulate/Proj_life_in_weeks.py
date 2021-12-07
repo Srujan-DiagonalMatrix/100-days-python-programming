@@ -1,22 +1,20 @@
-"""
-Input: age in number
-output: You have {} days, {} weeks, and {} months
-Formula: 1 year == 365 days, 52 weeks, 12 months
-
-
-Formula:
-for 90 years:
-    days: 32850
-    weeks: 4680
-    months: 1080
-
-convert your age: days, months & weeks.
-    days: 365*age
-    weeks: 52*age
-    months: 12*age
-
-substract
-"""
+################################################################################
+#Input: age in number
+#output: You have {} days, {} weeks, and {} months
+#Formula: 1 year == 365 days, 52 weeks, 12 months
+#
+#
+#Formula:
+#for 90 years:
+#    days: 32850
+#    weeks: 4680
+#    months: 1080
+#
+#convert your age: days, months & weeks.
+#    days: 365*age
+#    weeks: 52*age
+#    months: 12*age
+################################################################################
 
 age = input("What is your age? \n")
 age = int(age)
